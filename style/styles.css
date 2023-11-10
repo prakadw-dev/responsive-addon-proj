@@ -176,6 +176,9 @@ section.secondary {
 .tertiary h3 {
   padding-bottom: 30px;
 }
+.embed {
+  border-radius: 12px;
+}
 
 footer {
   color: white;
@@ -240,7 +243,7 @@ footer a {
   }
   .tertiary .grid-3-columns {
     grid-template-columns: 1fr;
-    grid-gap: 0;
+    grid-gap: 5px;
     padding: 0;
     margin: 0;
   }
