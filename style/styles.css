@@ -173,11 +173,8 @@ section.secondary {
   padding-top: 20px;
   padding-bottom: 0;
 }
-.more-troye {
-  aspect-ratio: 1/1;
-}
 .tertiary h3 {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 footer {
@@ -241,8 +238,14 @@ footer a {
     display: block;
     margin: 0 auto;
   }
+  .tertiary .grid-3-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    padding: 0;
+    margin: 0;
+  }
   iframe {
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
   }
 }
