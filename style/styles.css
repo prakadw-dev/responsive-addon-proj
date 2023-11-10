@@ -211,9 +211,15 @@ footer li {
   padding: 0;
 }
 footer a {
+  font-family: Roboto;
   color: white;
   text-decoration: none;
   opacity: 0.7;
+}
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 @media (max-width: 960px) {
