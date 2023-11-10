@@ -1,4 +1,6 @@
-/* font-family: 'Plus Jakarta Sans', sans-serif; */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -54,7 +56,54 @@ header a {
   color: black;
 }
 
-@media (max-width: 900px) {
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(2, 4, 3, 0.9), rgba(2, 4, 3, 0.9)),
+    url(../images/troye.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h3 {
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 50px 0;
   }
