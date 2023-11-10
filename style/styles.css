@@ -231,4 +231,8 @@ footer a {
   section {
     padding: 30px;
   }
+  .image-in-main {
+    display: block;
+    margin: 0 auto;
+  }
 }
